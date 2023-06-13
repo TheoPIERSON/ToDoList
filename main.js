@@ -7,7 +7,7 @@ let mySubmit = document.getElementById("mySubmit");
 
 mySubmit.addEventListener("click", function () {
   if (myInput.value !== "") {
-    var li = document.createElement("li");
+    let li = document.createElement("li");
     myList.appendChild(li);
     li.innerHTML += myInput.value;
     myInput.value = "";
